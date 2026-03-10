@@ -11,6 +11,6 @@ if($nota >= 6){
     echo "Reprovado";
 }
 
-for($i; $i <= 3; $i++){
+for($i = 1; $i <= 3; $i++){
     echo "Rodada $i";
 }
