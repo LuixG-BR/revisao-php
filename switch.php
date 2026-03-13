@@ -1,16 +1,14 @@
 <?php
-$valor = 10;
-switch($valor){
-    case 5:
-        echo "nota Vermelha"
+$perfil = "admin";
+
+switch ($perfil) {
+    case "admin":
+        echo "Acesso Total";
         break;
-    case 7:
-        echo "nota verde"
-        break;
-    case 10: 
-        echo "aprovado"
+    case "user comum":
+        echo "Apenas leitura";
         break;
     default:
-    echo "Digite um valor valido"
-    break;
+        echo "Usuario Invalido";
+        break;
 }
